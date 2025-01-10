@@ -196,3 +196,39 @@ nav{
         text-align: left;
         text-decoration-line: underline;
 }
+.next-target{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+}
+.next-target-name{
+        width: 1140px;
+        height: 219px;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        
+}
+.target-content-title{
+        color: rgb(13, 19, 33);
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+}
+.target-content-description{
+        opacity: 0.7;
+        color: rgb(13, 19, 33);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+}
